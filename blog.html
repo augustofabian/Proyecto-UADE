@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="btnbtru.jpeg" type=".jpg">
+    <link rel="shortcut icon" href="" type=".jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        li{
+            text-decoration: none;
+            display: inline-block;
+        }
+        .links{
+            color: black;
+            text-decoration: none;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .flexcontainer{
+            display: flex;
+        }
+        body{
+            background-color: rgb(242, 223, 201);
+            height: 50%;
+        }
+        header{
+            background-color: rgb(245, 202, 150);;
+            height: 8vw;
+        }
+        footer{
+            background-color: rgb(245, 202, 150);;
+            height: 25%;
+            display: flex;
+        }
+        .ancizar-serif{
+            font-family: "Ancizar Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+        aside{
+            background-color: rgb(245, 202, 150);;
+            width: 20vw;
+            height: auto;
+        }
+        .texts{
+            text-align: center;
+            font-family: "Ancizar Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+        .images{
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            text-align: center;
+            align-items: center;
+            width: 80vw;
+        }
+        button{
+            background-color: rgb(214, 142, 54);
+            color: black;
+            height: 100px;
+            width: 200px;
+            font-family: "UnifrakturCook", cursive;
+            font-weight: 700;
+            font-style: normal;
+            transition: ease-out;
+            align-items: center; 
+            margin-top: 0,5vw; 
+            margin: 1vw;
+        }
+        button:hover{
+            width: 210px;
+            height: 110px;
+            cursor: pointer;
+        }
+        button a{
+            color: black;
+            font-size: larger;
+        }
+        nav{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        button{
+            text-align: center;
+            align-content: center;
+        }
+        @media (max-width: 1200px) {
+            main{
+                flex-direction: column;
+            }
+            aside{
+                width: 50%;display: flex;
+            }
+            header, footer{
+                flex-direction: column;
+                text-align: center;
+                height: auto;
+            }
+            p{
+                font-size: smaller;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            button {
+                width: 80%;
+                height: auto;
+                margin: 1rem auto;
+                font-size: 1rem;
+            }
+            img {
+                width: 50%;
+                height: auto;
+            }
+            aside {
+                height: 100%;
+                width: 50%;
+            }
+            section {
+                margin-top: 0%;
+                width: min-content;
+                margin-left: 60%;
+            }
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a class="links" style="text-align: center;font-size: 25px;" href="blog.html"><button><p style="text-align: center;font-size: 25px;">PÁGINA PRINCIPAL</p></button></a></li>
+            
+            <li><a class="links" href="contacto.html"><button><p style="text-align: center;font-size: 25px;margin-bottom: -3vw;">CONTACTO</p></button></a></li>
+            
+            <li><a class="links" href="linktree.html"><button><p style="text-align: center;font-size: 25px;margin-bottom: -3vw;">LINKTREE</p></button></a></li>
+        </ul>
+    </nav>
+</header>
+<main style="display: flex;">
+<aside>
+    <img class="flexcontainer" style="border-radius: 10px;width: 100px;height: 100px;margin-left: 5vw;" src="emperor's champion.png" alt="emperor's champion">
+    <p style="margin-left: 5px;" class="ancizar-serif">Este blog esta orientado a los fanáticos de la VII legión de marines espaciales, posteado por Augusto Fabián Alice.</p>
+    <ul>
+        <li class="ancizar-serif"><a href="Página1.html"><button>ROGAL DORN</button></a></li>
+        <li class="ancizar-serif"><a href="Página2.html"><button>PUÑOS IMPERIALES</button></a></li>
+        <li class="ancizar-serif"><a href="Página3.html"><button>TEMPLARIOS NEGROS</button></a></li>
+        <li class="ancizar-serif"><a href="Página4.html"><button>MEREK GRIMALDUS</button></a></li>
+        <li class="ancizar-serif"><a href="Página5.html"><button>TEMPLARIOS DEL MARTIRIO</button></a></li>
+    </ul>
+</aside>
+<section class="flexcontainer">
+    <div>
+        <h1 style="text-align: center;">¡Bienvenido al mundo de Warhammer 40.000!</h1>
+        <p style="text-align: center;">Blog por Augusto fabián Alice, posteado el 26/5/2025.</p>
+        <div class="texts">
+            <h1>ROGAL DORN</h1>
+            <img class="images" width="20%" height="20%" src="Rogal Dorn.jpg" alt="Primarch of the imperial fists">
+            <p>Rogal Dorn, primarca de los puños imperiales e hijo del emperador de la humanidad. Dorn es un guerrero del mas alto nivel; estoico y pragmático.</p>
+            <a style="text-align: center;" href="Página1.html">Leer más</a>
+        </div>
+
+        <div class="texts">
+            <h1>PUÑOS IMPERIALES</h1>
+            <img class="images" width="20%" height="20%" src="IF MkVII.jpg" alt="">
+            <p>Los puños imperiales, la séptima Legion de los marines espaciales, y ahora un capítulo de primer fundación. Expertos en asedios, tanto en defensa como en ataque, este capítulo es para cualquiera amante de el fuego pesado y las tácticas. </p>
+            <a style="text-align: center;" href="Página2.html">Leer más</a>
+        </div>
+
+        <div class="texts">
+            <h1>TEMPLARIOS NEGROS</h1>
+            <img class="images" width="20%" height="20%" src="BTforblog.jpg" alt="">
+            <p>Los templarios negros son luchadores feroces, inparables y fervientes en su creencia hacia la divinidad del emperador de la humanidad. Amantes del combate cuerpo a cuerpo, son excelentes duelistas.</p>
+            <a style="text-align: center;" href="Página3.html">Leer más</a>
+        </div>
+
+        <div class="texts">
+            <h1>ALTO CAPELLÁN MEREK GRIMALDUS</h1>
+            <img class="images" width="20%" height="20%" src="GRIMALDUS.jpg" alt="">
+            <p>El alto capellán Merek Grimaldus es un gran líder, estratega y fuente de inspiración para cualquier ser humano o trans-humano.</p>
+            <a style="text-align: center;" href="Página4.html">Leer más</a>
+        </div>
+
+        <div class="texts">
+            <h1>LOS TEMPLARIOS DEL MARTIRIO</h1>
+            <img class="images" width="20%" height="20%" src="veteran marines.jpg" alt="">
+            <p>Los templarios del martirio son un sucesor de los puños imperiales de la 4ta fundación. Un capítulo de flota, realizan cruzadas a través de las estrellas en busca de aquellos dignos de su patrimonio. Se especializan en la guerra de asedios, y mientras mas luchan mas resisten; Aunque dependiendo de su rol en el campo de batalla pueden ser tan defensivos con los puños carmesíes, tan celosos como los templarios negros, tan tácticos como los retribuidores y tan agresivos como los hospitalarios.</p>
+            <a style="text-align: center;" href="Página5.html">Leer más</a>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <nav>
+        <div><a href="https://www.instagram.com/pipo_alice?igsh=MW0xN200djBrZGJiYQ=="><img style="width: 5%;height: 5%;margin-top: 1%;margin-left: 45%;" src="instagram logo.webp" alt="instagram logo"></a></div>
+    </nav>
+    <p class="ancizar-serif" style="text-align: end;"> © 2025 Augusto. Todos los derechos reservados.</p>
+</footer>
+</html>
